@@ -38,7 +38,7 @@ export function ImageModal({ image, onClose }: ImageModalProps) {
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-4xl overflow-hidden rounded-xl bg-white shadow-2xl"
+        className="relative w-full max-w-4xl overflow-hidden rounded-xl bg-white shadow-[0_20px_45px_rgba(147,197,253,0.35)]"
         onClick={(event) => event.stopPropagation()}
       >
         <button
