@@ -14,7 +14,7 @@ export function ImageGrid({ images, onPreview }: ImageGridProps) {
           key={image.id}
           type="button"
           onClick={() => onPreview(image)}
-          className="group overflow-hidden rounded-xl border border-slate-200 bg-white text-left shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+          className="group overflow-hidden rounded-xl border border-slate-200 bg-white text-left shadow-[0_8px_20px_rgba(79,70,229,0.12)] transition hover:-translate-y-0.5 hover:shadow-[0_14px_28px_rgba(79,70,229,0.2)]"
         >
           <div className="relative h-56 w-full bg-slate-100">
             <Image
